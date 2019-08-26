@@ -1,10 +1,8 @@
-
-var calc=function(number1,number2){
-    number1=parseInt(prompt("Enter a number:"));
-    number2=parseInt(prompt("Enter another one:"));
-    number1;
-    number2;
-    var answer=number1+number2;
-    alert(answer);
-}
-calc();
+var add = function(number1, number2) {
+    return number1 + number2;
+  };
+  
+  var number1 = parseInt(prompt("Enter a number:"));
+  var number2 = parseInt(prompt("Enter another number:"));
+  var result = add(number1, number2);
+  alert(result);
